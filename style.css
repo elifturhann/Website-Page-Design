@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header,.subscribe,footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #35424A;
+    color: #fff;
+}
+header{
+    border-bottom: 3px solid #A9508B;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+h1 span{
+    color: #A9508B;
+}
+li{
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #A9508B;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #F4F4F4;
+}
+.banner{
+    background-image: url(./images/img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 10rem 6rem 10.5rem;
+}
+/* .container{
+    position: relative;
+    text-align: center;
+    color: #F4F4F4;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+h2{
+    margin: 2rem;
+    font-size: 2rem;
+}
+.subscribe input{
+    padding: 0.5rem 0.3rem;
+    width: 15rem;
+}
+.submit{
+    padding: 0.6rem 1rem ;
+    background-color: #E7491D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.logos{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 1rem 3rem;
+}
+.logos > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+.logos img{
+    width: 5rem;
+}
+footer{
+    flex-direction: column;
+}
+footer img{
+    width: 13rem;
+}
+/*About.html*/
+a:hover{
+    color: #A9508B;
+    cursor: pointer;
+}
+.about-us{
+    flex: 1;
+    display: flex;
+    padding: 1.5rem 2rem;
+    gap: 4rem;
+}
+.about-us p{
+    margin: 1rem 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.dark{
+    padding: 1rem;
+    background-color: #35424A;
+    color: #fff;
+}
+.dark h4{
+    margin: 0.4rem 0 0.8rem;
+}
+.right{
+    flex: 1;
+    align-self: flex-start;
+}
+.right.dark{
+    padding-top: 2rem;
+}
+
+.left{
+    flex: 3;
+}
+/*services.html*/
+
+ .left{
+    margin: 1.5rem;
+    color: #35424A;
+
+} 
+ .cards{ 
+    display: flex;
+    flex-direction: column;
+    height: 93%;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+    margin-bottom: 5rem;
+
+ } 
+ .card{
+    background-color: #E6E6E6;
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    border: 1px solid #d0d0d0;
+    
+    
+}
+.card p{
+    margin: 0;
+    color: #566166;
+}
+#name,#email,#message{
+    padding: 0.3rem;
+    margin: 0.2rem 0;
+    
+}
+.right label{
+    font-size: 14px;
+    color: #E6E6E6;
+}
+.card > h4{
+    color: #35424A;
+} 
+textarea{
+    resize: none;
+}
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+
+    
+    
